@@ -55,8 +55,8 @@ body{
     height: 310px;
       
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size: auto;
     position: relative;
   
   }
@@ -193,4 +193,24 @@ body{
   margin-top: 10px;
   height: 40px;
   /* height: 30px; */
+}
+
+
+/*Responsive Layout*/
+
+@media screen and (max-width: 768px) {
+  .card-row{
+    display: block ;
+    text-align: center;
+  }
+
+  .team-card{
+    margin: 0px auto;
+  }
+
+  .blog-card{
+    margin: 0px auto;
+  }
+
+
 }
